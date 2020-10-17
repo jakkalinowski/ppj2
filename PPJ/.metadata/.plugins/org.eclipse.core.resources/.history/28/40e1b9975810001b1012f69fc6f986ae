@@ -1,0 +1,6 @@
+
+public class Scanner1App {
+  
+  Scanner fileScanner = new Scanner(new File(""))
+
+}

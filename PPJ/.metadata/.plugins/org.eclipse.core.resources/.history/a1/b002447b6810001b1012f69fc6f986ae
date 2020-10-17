@@ -1,0 +1,7 @@
+package pl.ppj;
+
+public interface ISort {
+  
+  public sort();
+
+}

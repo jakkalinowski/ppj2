@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Table1App {
+
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    
+    System.out.println("Intput n parameter for table:");
+    int parameter = scanner.nextInt();
+    
+    
+  }
+
+}

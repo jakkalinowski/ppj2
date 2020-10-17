@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\U¿ytkownik WEiTI\Desktop\Projekty_JK\PPJ\.metadata\.plugins\org.eclipse.jdt.core
+3354612295.index
+3554859701.index
+788562935.index
+3738582126.index
+3271193799.index

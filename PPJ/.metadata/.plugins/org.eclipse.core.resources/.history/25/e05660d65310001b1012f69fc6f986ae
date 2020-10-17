@@ -1,0 +1,27 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Table1App {
+
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    
+    System.out.println("Intput n parameter for table:");
+    int parameter = scanner.nextInt();
+    
+    int[][] table= new int[parameter][5];
+    
+    System.out.println(table.length);
+    
+    for (int i = 0; i < table[i].length ; i++ )  {
+      for (int j = 0; j < table[i].length ; j++ ) {
+        table[i] = new int[i];
+        table[i][i] = j;
+        
+      }
+    }
+    
+    System.out.println(Arrays.toString(table));
+  }
+
+}

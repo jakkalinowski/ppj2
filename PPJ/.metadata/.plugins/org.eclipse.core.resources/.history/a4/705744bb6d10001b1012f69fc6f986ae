@@ -1,0 +1,11 @@
+package pl.ppj;
+
+public class ListSort implements ISort{
+
+  @Override
+  public void sort(double[] array) {
+    // TODO Auto-generated method stub
+    
+  }
+
+}

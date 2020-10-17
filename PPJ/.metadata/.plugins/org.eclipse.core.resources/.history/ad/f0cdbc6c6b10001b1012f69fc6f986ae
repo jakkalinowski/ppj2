@@ -1,0 +1,11 @@
+package pl.ppj;
+
+public class ParallelSort implements ISort {
+
+  @Override
+  public void sort() {
+    // TODO Auto-generated method stub
+    
+  }
+
+}

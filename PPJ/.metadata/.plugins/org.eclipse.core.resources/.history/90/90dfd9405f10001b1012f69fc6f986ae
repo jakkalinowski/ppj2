@@ -1,0 +1,34 @@
+package pl.ppj;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class Scanner1App {
+
+  public static void main(String[] args) throws FileNotFoundException {
+    Scanner fileScanner = new Scanner(new File("C:\\Users\\U¿ytkownik WEiTI\\Desktop\\Projekty_JK\\PPJ\\Scanner1\\src\\file.txt"));
+    
+    while (fileScanner.hasNext()) {
+      String line = fileScanner.nextLine();
+      Scanner scannerLine = new Scanner(line);
+      
+
+      scannerLine.useDelimiter(",");
+      
+      while(scannerLine.hasNext()) {
+        
+        String tmp = scannerLine.next().toLowerCase().trim();
+        tmp = tmp.substring(1).toUpperCase();
+        
+        System.out.print(tmp +  "\s");
+      }
+      
+      System.out.println("");
+      
+    }
+    fileScanner.close(); 
+
+  }
+
+}
